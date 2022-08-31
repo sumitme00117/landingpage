@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Bree+Serif&family=Comforter&family=Merriweather+Sans:wght@500&family=Mochiy+Pop+One&family=Ubuntu:wght@500&family=Urbanist:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Bree+Serif&family=Comforter&family=Courgette&family=Merriweather+Sans:wght@500&family=Mochiy+Pop+One&family=Ubuntu:wght@500&family=Urbanist:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Bree+Serif&family=Comforter&family=Courgette&family=Lobster&family=Merriweather+Sans:wght@500&family=Mochiy+Pop+One&family=Pacifico&family=Ubuntu:wght@500&family=Urbanist:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#firstdiv{
+    background-color: black;
+    height: 60px;
+    
+}
+
+.btn{
+    float: right;
+    margin: 15px;
+    
+    width: 84px;
+    height: 31px;
+    background-color: rgb(106, 242, 48);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar{
+    margin-top: 20px;
+}
+.logo1{
+    height: 58px;
+    
+    margin-left: 15px;
+    width: 150px;
+
+}
+
+.nav2{
+    display: flex;
+    margin-left: 500px;
+    font-family: 'Merriweather Sans', sans-serif;
+    cursor: pointer;
+    
+}
+.item1:hover{
+    color: rgb(174, 238, 79);
+}
+.item2:hover{
+    color: rgb(174, 238, 79);
+}
+.item3:hover{
+    color: rgb(174, 238, 79);
+}
+.item4:hover{
+    color: rgb(174, 238, 79);
+}
+.item5:hover{
+    color: rgb(174, 238, 79);
+}
+#item{
+    list-style: none;
+    margin: 25px;
+}
+
+
+.heading2 span{
+    padding-top: 25px;
+    padding-left: 140px;
+    
+}
+.heading2{
+height: 100vh;
+background-image: url("fiji.jpg");
+width: 200vh;
+}
+h3{
+    text-align: center;
+    margin-top: 350px;
+    width: auto;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+.price{
+    margin-left: 550px;
+    margin-top: 25px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: rgba(41, 154, 230, 0.97);
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+}
+.heading3{
+    background-image: url("diary2.PNG");
+    height: 120vh;
+}
+.explore{
+    text-align: center;
+    padding-top: 70px;
+}
+#explore1{
+    font-size: 60px;
+    color:rgb(29, 197, 29)
+}
+#explore2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    padding-top: 100px;
+    margin-left: 200px;
+    opacity: 1.5;
+    padding-bottom: 60px;
+}
+.exclusive1{
+    margin-left: 220px;
+    padding-top: 100px;
+}
+.exclusive2{
+    margin-left: 240px;
+}
+.exclusive3{
+    margin-left: 250px;
+}
+.exclusive{
+    font-weight: bold;
+   
+    text-shadow: 0.5rem;
+}
+.container1{
+    display: block;
+    
+    width: 300px;
+}
+#container1{
+    margin-left: 150px;
+    padding: 20px;
+}
+#container2{
+    margin-left: 600px;
+    margin-top: -120px;
+}
+#container3{
+    margin-left: 1000px;
+    margin-top: -70px;
+}
+.heading4{
+    padding-top: 150px;
+    background-image: url("ftiij.PNG");
+    height: 50vh;
+}
+.fiji{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 80px;
+    margin-top: -100px;
+}
+.offer{
+    margin-top: 10px;
+}
+.email{
+    margin-left: 530px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    
+}
+.btn2{
+    padding: 10px;
+    border-radius: 50px;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+}
+.things{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 80px;
+    color:rgb(113, 242, 113)
+}
+.discover{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.image4{
+    margin-left: 60px;
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+}
+.image5{
+    height: 400px;
+    width: 400px;
+    float: right;
+    margin-top: -120px;
+}
+.image6{
+    height: 400px;
+    width: 400px;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: -200px;
+}
+.day1{
+    margin-top: -100px;
+    padding: -100px;
+}
+#pday1{
+    
+    margin-left: 625px;
+    margin-top: 25px;
+    display: block;
+    font-family: 'Courgette', cursive;
+    color: rgb(31, 168, 214);
+    width: 50px;
+}
+#qday1{
+    margin-left: 550px;
+    margin-top: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+    height: 100px;
+    width: 200px;
+}
+#rday1{
+    
+    margin-left: 560px;
+    margin-top: -50px;
+    font-family: 'Gentium Book Plus', serif;
+    width: 200px;
+    align-items: center;
+    
+    padding: 10px;
+    
+}
+.matter1{
+    height: 100px;
+    width: 100px;
+    margin-top: -400px;
+}
+.matter2{
+    height: 100px;
+    width: 100px;
+    margin-top: 400px;
+}
+.matter3{
+    
+    margin-top: -100px;
+    position: absolute;
+}
+#pday2{
+    
+    margin-left: 200px;
+    margin-top: 25px;
+    display: block;
+    font-family: 'Courgette', cursive;
+    color: rgb(31, 168, 214);
+    width: 50px;
+    
+}
+#qday2{
+    margin-left: 125px;
+    margin-top: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+    height: 100px;
+    width: 200px;
+}
+#rday2{
+    
+    margin-left: 125px;
+    margin-top: -50px;
+    font-family: 'Gentium Book Plus', serif;
+    width: 200px;
+    align-items: center;
+    
+    padding: 10px;
+    
+}
+.day2{
+    margin-top: 100px;
+    padding: 10px;
+    float: left;
+}
+#pday3{
+    
+    margin-left: 1080px;
+    margin-top: 25px;
+    display: block;
+    font-family: 'Courgette', cursive;
+    color: rgb(31, 168, 214);
+    width: 50px;
+}
+#qday3{
+    margin-left: 1000px;
+    margin-top: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+    height: 100px;
+    width: 200px;
+}
+#rday3{
+    
+    margin-left: 1000px;
+    margin-top: -50px;
+    font-family: 'Gentium Book Plus', serif;
+    width: 200px;
+    align-items: center;
+    
+    padding: 10px;
+    
+}
+.day3{
+    
+    padding: 10px;
+    float: left;
+}
+.forms{
+    margin-top: 200px;
+}
+
+.form{
+    margin-top: 200px;
+    margin-left: 600px;
+    padding-top: 200px;
+    
+    align-items: center;
+    border: 2px solid red;
+}
+
+.start{
+    color: black;
+    float: left;
+    margin-left: -280px;
+    margin-top: 150px;
+    font-family: 'Gentium Book Plus', serif;
+}
+.prices{
+    color: rgb(31, 168, 214);
+    float: left;
+    margin-top: 200px;
+    margin-left: -250px;
+    font-size: 100px;
+}
+.dollar{
+    
+    width: 25px;
+    height: 20px;
+    margin-left: -270px;
+    margin-top: 220px;
+    margin-bottom: -500px;
+    float: right;
+    float: left;
+    color: rgb(31, 168, 214);
+    font-size: 20px;
+    font-weight: bold;
+}
+.person{
+    float: right;
+    margin-top: 230px;
+    padding: 10px;
+    float: left;
+    
+}
+#person{
+    margin-left: -50px;
+    font-weight: bold;
+}
+#night{
+    margin-top: 250px;
+    margin-left: -95px;
+    font-family: 'Paprika', cursive;
+    font-size: 10px;
+}
+#air{
+    margin-top: 270px;
+    margin-left: -156px;
+    font-family: 'Paprika', cursive;
+    font-size: 10px;
+}
+.offers{
+    float: right;
+    margin-top: 370px;
+    float: left;
+    margin-left: -390px;
+    
+}
+.offer{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Gentium Book Plus', serif;
+    padding: 10px;
+}
+.images{
+   margin-bottom: -10px;
+
+}
+.move{
+    
+    margin-left: 80px;
+    position: relative;
+    
+}
+#one{
+    margin-top: 10px;
+}
+#two{
+    margin-top: 10px;
+    margin-bottom: -30px;
+}
+#three{
+margin-bottom: -20px;
+}
+#img11{
+    margin-top: -50px;
+}
+#img12{
+    margin-bottom: 8px;
+}
+#img13{
+    margin-bottom: 4px;
+}
+.forms{
+    border: 2px solid greenyellow;
+    float: right;
+    height: 380px;
+    width: 500px;
+    margin-right: 200px;
+}
+#journey{
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+#mountain{
+    padding: 15px;
+    font-weight: bold;
+}
+.formation{
+    text-align: center;
+    justify-content: center;
+}
+.perform{
+    padding: 2px;
+    
+}
+.ide{
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 8px;
+}
+#check{
+    margin: 15px;
+}
+.mark{
+    margin-left:-46px;
+}
+#btn2{
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    background-color: rgb(31, 168, 214);
+    font-family: 'Gentium Book Plus', serif;
+    color: white;
+
+}
+.container{
+    margin-top: 700px;
+    height: 500px;
+    max-height: 600px
+}
+footer{
+    background-color: rgb(88, 88, 255);
+}
+.nav3{
+    margin-left: 300px;
+}
+.lorem1{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.rights{
+    
+    margin-top: 100px;
+    margin-bottom: 800px;
+}
+
+  
